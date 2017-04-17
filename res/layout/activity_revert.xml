@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:background="#FFFFFFFF"
+                tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="200dp"
+            android:src="@drawable/rubik"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/back2"
+                android:src="@drawable/back2_btn"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="left|bottom"
+                />
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pause"
+                android:src="@drawable/pause_btn"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"/>
+        <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/start1"
+                android:layout_weight="1"
+                android:src="@drawable/start_btn"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="right|bottom"/>
+    </LinearLayout>
+
+</RelativeLayout>

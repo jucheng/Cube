@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/res/anim/welcome_alpha.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/ic_action_search.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item01.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item02.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item03.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item04.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item05.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item06.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item07.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/item08.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/page_indicator_focused.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/page_indicator_unfocused.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable/shibie.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/values/colors.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/Cube/MFtestActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/mftest/MFtestRenderer.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

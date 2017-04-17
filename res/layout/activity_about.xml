@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="4"
+              android:background="#FFFFFF"
+              tools:context=".LinearLayoutActivity" >
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="魔方世界多姿多彩："
+        android:textSize="30dp"
+        android:textColor="#F4A460"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/textview1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/click1"
+                android:textColor="#9ACD32"
+                android:textSize="20dp">
+        </TextView>
+        <ImageButton
+                android:id="@+id/history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/history"
+                android:layout_toRightOf="@id/textview1"
+                android:layout_alignTop="@id/textview1"
+                android:layout_alignBottom="@id/textview1"/>
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/content1"
+                android:textSize="20dp"
+                android:textColor="#9ACD32"
+                android:layout_toRightOf="@id/history"
+                android:layout_alignTop="@id/history"
+                android:layout_alignBottom="@id/history" android:id="@+id/textView">
+        </TextView>
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/textview2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/click2"
+                android:textColor="#9ACD32"
+                android:textSize="20dp">
+        </TextView>
+        <ImageButton
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/three"
+                android:layout_toRightOf="@id/textview2"
+                android:layout_alignTop="@id/textview2"
+                android:layout_alignBottom="@id/textview2"/>
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/content2"
+                android:textSize="20dp"
+                android:textColor="#9ACD32"
+                android:layout_toRightOf="@id/three"
+                android:layout_alignTop="@id/three"
+                android:layout_alignBottom="@id/three">
+        </TextView>
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+        <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <TextView
+                    android:id="@+id/textview3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/click3"
+                    android:textColor="#9ACD32"
+                    android:textSize="20dp">
+            </TextView>
+            <ImageButton
+                    android:id="@+id/high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/high"
+                    android:layout_toRightOf="@id/textview3"
+                    android:layout_alignTop="@id/textview3"
+                    android:layout_alignBottom="@id/textview3"/>
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/content3"
+                    android:textSize="20dp"
+                    android:textColor="#9ACD32"
+                    android:layout_toRightOf="@id/high"
+                    android:layout_alignTop="@id/high"
+                    android:layout_alignBottom="@id/high">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+        <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <TextView
+                    android:id="@+id/textview4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/click4"
+                    android:textColor="#9ACD32"
+                    android:textSize="20dp">
+            </TextView>
+            <ImageButton
+                    android:id="@+id/game"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/game"
+                    android:layout_toRightOf="@id/textview4"
+                    android:layout_alignTop="@id/textview4"
+                    android:layout_alignBottom="@id/textview4"/>
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/content4"
+                    android:textSize="20dp"
+                    android:textColor="#9ACD32"
+                    android:layout_toRightOf="@id/game"
+                    android:layout_alignTop="@id/game"
+                    android:layout_alignBottom="@id/game">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9ACD32"
+            android:text="返回"
+            android:textSize="20dp"
+            android:id="@+id/back" android:layout_gravity="bottom|left">
+            </Button>
+
+</LinearLayout>

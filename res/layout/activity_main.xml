@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:background="#FFFFFFFF"
+                tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="200dp"
+            android:src="@drawable/rubik"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/test"-->
+                <!--android:text="测试"-->
+        <!--/>-->
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+    <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting"
+                android:background="@drawable/setting_btn"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="left|bottom"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/photo"
+                android:background="@drawable/photo_btn"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about"
+                android:onClick="change"
+                android:background="@drawable/about_btn"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:layout_gravity="right|bottom"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/start_background"
+    />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/test"
+            android:text="测试"
+            android:src="@drawable/back2_btn"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="left|bottom"/>
+</RelativeLayout>

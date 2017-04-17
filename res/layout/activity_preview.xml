@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:baselineAligned="false">
+    <FrameLayout android:layout_width="0dp"
+                 android:layout_height="fill_parent"
+                 android:layout_weight="2">
+        <com.view.PreviewView
+                android:id="@+id/PreviewView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        <com.view.DrawImageView
+                android:id="@+id/DrawImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="0dp"
+                 android:layout_height="fill_parent"
+                 android:layout_weight="1">
+        <com.view.ResultView
+                android:id="@+id/ResultView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/previousFace"
+                android:id="@+id/previous" android:layout_gravity="left|bottom"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:id="@+id/previewStatus" android:layout_gravity="center_horizontal|bottom"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nextFace"
+                android:id="@+id/next" android:layout_gravity="right|bottom"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+
